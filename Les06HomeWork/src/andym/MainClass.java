@@ -57,7 +57,7 @@ public class MainClass {
     System.out.println();
     System.out.printf("Group #2 average mark is: "+"%.1f",Grl.getAvrMark(gr2));
     System.out.println();
-	System.out.println("-------------------------------");
+    System.out.println("-------------------------------");
 	
     
     StudentLogic Stl = new StudentLogic();
@@ -73,8 +73,8 @@ public class MainClass {
     System.out.printf(st4.getName()+" "+st4.getSurname()+" Average mark is: "+"%.1f",Stl.getAvrMark(st4));
     System.out.println();
     System.out.printf(st5.getName()+" "+st5.getSurname()+" Average mark is: "+"%.1f",Stl.getAvrMark(st5));
-	System.out.println();
-	System.out.println("-------------------------------");
+    System.out.println();
+    System.out.println("-------------------------------");
         
     System.out.println("*****ASudents & BSudents in each group*****");
     System.out.println("-------------------------------");
@@ -82,8 +82,8 @@ public class MainClass {
     System.out.println("Group #1 BStudents count: "+Grl.getCountBStudent(gr1));
     System.out.println("Group #2 AStudents count: "+Grl.getCountAStudent(gr2));
     System.out.println("Group #2 BStudents count: "+Grl.getCountBStudent(gr2));
-	System.out.println();
-	System.out.println("-------------------------------");
+    System.out.println();
+    System.out.println("-------------------------------");
     
     int ASt = Grl.getCountAStudent(gr1) + Grl.getCountAStudent(gr2);
     int BSt = Grl.getCountBStudent(gr1) + Grl.getCountBStudent(gr2);
